@@ -138,19 +138,14 @@ def main():
         
         
         # INPUT STARSET DEFINITION: (Adv_epsilon(x))
-        # Warning??
-        C = np.zeros((4*size, size))
+        C = np.zeros((2*size, size))
         for i in range(size):
             C[i, i] = 1
             C[size+i, i] = -1
-            C[2*size+i, i] = -1
-            C[3*size+i, i] = 1
-        d = np.ones((4*size, 1))
+        d = np.ones((2*size, 1))
         for i in range(size):
-            d[i, 0] = scale*x_s[i]+epsilon
-            d[size+i, 0] = -scale*x_s[i]+epsilon
-            d[2*size+i, 0] = 0
-            d[3*size+i, 0] = 1
+            d[i, 0] = min(1,scale*x_s[i]+epsilon)
+            d[size+i, 0] = min(0,-scale*x_s[i]+epsilon)
             
             
         # Targeted attack
