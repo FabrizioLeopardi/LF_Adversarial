@@ -16,7 +16,8 @@ def index_of_max(a):
 def main():
 
     model = tf.keras.models.Sequential([
-        tf.keras.layers.Flatten(input_shape=(28, 28)),
+        tf.keras.layers.Input((28,28)),
+        tf.keras.layers.Flatten(),
         tf.keras.layers.Dense(10, activation='relu'),
         ])
         
