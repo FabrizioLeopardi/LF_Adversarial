@@ -135,7 +135,6 @@ def main():
     
     
     # INPUT STARSET DEFINITION: (Adv_epsilon(x))
-    # Warning?? Why???
     C = np.zeros((4*size, size))
     for i in range(size):
         C[i, i] = 1
