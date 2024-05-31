@@ -2,7 +2,7 @@
 
 In this folder a numerical attack against a fully connected single layer Neural Network with ReLU activation is performed.
 The Neural Network was previously trained on the MNIST dataset, the evasion is performed on the first image of the test set of the dataset. The image clearly represent an handwritten 2.
-Inside the `../colab_notebooks`folder the code for the training and testing of the network is provided.
+Inside the `../../colab_notebooks`folder the code for the training and testing of the network is provided.
 The weights in human readable notation can be found in `data/NN_data_raw.txt"`
 
 ## The strategy 
