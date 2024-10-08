@@ -26,7 +26,7 @@ It will delete the already generated output files
 
 ## Integer linear programming problem solution
 
-In order to find \textbf{x}^{adv} i solved a very easy integer linear programming problem.
+In order to find $\textbf{x}^{adv}$ i solved a very easy integer linear programming problem.
 This is possible because the NN has only one layer, therefore the output of the network $\textbf{y}$ can be written as a function of the input  $\textbf{x}$ as:
 
 $$ 
