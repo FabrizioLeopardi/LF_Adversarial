@@ -55,7 +55,7 @@ The solution of the problem can be found by letting $x_i=l_i$ whenever the coeff
 The property the verifier assumed not to be possibile in the neighborhood of $\textbf{x}^0$ (`x_0.ppm`) was 
 $$y_0 \ge y_i \ ,\forall i$$
 In the end by minimising $y_2$ I obtained the logit vector: 
-$\textbf{y} = \textbf{\sigma}(\textbf{x}^{adv}) = [0,0,0,0,0,0,0,0,0,0]^T$ for which the property is satisfied even if $||\textbf{x}^{adv} - \textbf{x}^0  ||_\infty \le \epsilon = 5/255$ , $\textbf{x}^{adv} \le \textbf{1}$ and $\textbf{x}^{adv} \ge \textbf{0}$.
+$\textbf{y} = \boldsymbol{\sigma}(\textbf{x}^{adv}) = [0,0,0,0,0,0,0,0,0,0]^T$ for which the property is satisfied even if $||\textbf{x}^{adv} - \textbf{x}^0  ||_\infty \le \epsilon = 5/255$ , $\textbf{x}^{adv} \le \textbf{1}$ and $\textbf{x}^{adv} \ge \textbf{0}$.
 Notice that a classifier based on such a network that classifies the digit by finding the <mark>first value</mark> in the vector greater or equal to the others would classify the image as a 0.
 
 Of course this method may not be successful for any input and adversary capability $\epsilon$. In particular the attack failed for the same input and $\epsilon = 0.02$
