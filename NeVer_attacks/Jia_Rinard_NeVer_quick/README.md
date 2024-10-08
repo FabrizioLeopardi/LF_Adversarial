@@ -24,9 +24,9 @@ It will delete the already generated output files
 5.  (Optional check) `python3 epsilon_check.py` It will check the property $\textbf{x}^{adv} \in Adv_\epsilon(\textbf{x}^0)$
 
 
-## Integer linear programming problem solution
+## Linear programming problem solution
 
-In order to find $\textbf{x}^{adv}$ i solved a very easy integer linear programming problem.
+In order to find $\textbf{x}^{adv}$ i solved a very easy linear programming problem.
 This is possible because the NN has only one layer, therefore the output of the network $\textbf{y}$ can be written as a function of the input  $\textbf{x}$ as:
 
 $$ 
