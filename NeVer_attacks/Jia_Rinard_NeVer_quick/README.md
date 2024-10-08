@@ -43,15 +43,14 @@ $$
 From here I tried to evade minimizing $y_2$ by noticing that any component of vector function $\textbf{f}$ is monotonic:
 
 $$\textbf{x}^{adv} =  argmin_{\textbf{x} \in Adv_\epsilon(\textbf{x}^0)} \{y_2\} = argmin\{f_2(W\textbf{x}+\textbf{b})\} 
-= argmin\{ \langle (W\textbf{x}+\textbf{b}) , \  \textbf{e}^2 \rangle \} 
+= argmin\{  (W\textbf{x}+\textbf{b})^T  \textbf{e}^2 \} 
 = argmin\{ \textbf{w} \textbf{x}+b_2\} $$
 
 subject to 
 $$l_i \le x_i \le u_i$$
 
 
-being $\textbf{e}^2 = [0,0,1,0,0,0,0,0,0,0]^T$, $\textbf{w} = ({\textbf{e}^2})^T W$ and $\braket{.,.}$
-is the scalar product.
+being $\textbf{e}^2 = [0,0,1,0,0,0,0,0,0,0]^T$ and $\textbf{w} = ({\textbf{e}^2})^T W$.
 The solution of the problem can be found by letting $x_i=l_i$ whenever the coefficient $w_i$ that multiplies $x_i$ is greater than $0$ and $x_i = u_i$ otherwise.
 The property the verifier assumed not to be possibile in the neighborhood of $\textbf{x}^0$ (`x_0.ppm`) was 
 $$y_0 \ge y_i \ ,\forall i$$
