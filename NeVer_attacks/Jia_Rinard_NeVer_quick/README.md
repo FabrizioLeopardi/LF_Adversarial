@@ -43,8 +43,8 @@ $$
 From here I tried to evade minimizing $y_2$ by noticing that any component of vector function $\textbf{f}$ is monotonic:
 
 $$\textbf{x}^{adv} =  argmin_{\textbf{x} \in Adv_\epsilon(\textbf{x}^0)} \{y_2\} = argmin\{f_2(W\textbf{x}+\textbf{b})\} 
-= argmin \{  (W\textbf{x}+\textbf{b})^T  \textbf{e}^2 \} 
-= argmin \{ \textbf{w} \textbf{x}+b_2\} $$
+= argmin \lbrace  (W\textbf{x}+\textbf{b})^T  \textbf{e}^2 \rbrace 
+= argmin \lbrace \textbf{w} \textbf{x}+b_2\rbrace $$
 
 subject to 
 $$l_i \le x_i \le u_i$$
