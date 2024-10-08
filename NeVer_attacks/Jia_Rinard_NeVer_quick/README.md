@@ -40,7 +40,7 @@ $$
 \sigma_i(\textbf{x}) = max(0,x_i) 
 $$
 
-From here I tried to evade minimizing $y_2$ by noticing that any component of vector function $\textbf{f}$ is monotonic:
+From here I tried to evade minimizing $y_2$ by noticing that any component of vector function $\boldsymbol{\sigma}$ is monotonic:
 
 $$\textbf{x}^{adv} =  argmin_{\textbf{x} \in Adv_\epsilon(\textbf{x}^0)} \lbrace y_2 \rbrace = argmin\lbrace \sigma_2(W\textbf{x}+\textbf{b})\rbrace 
 = argmin \lbrace  (W\textbf{x}+\textbf{b})^T  \textbf{e}^3 \rbrace 
