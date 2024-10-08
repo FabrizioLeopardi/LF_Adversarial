@@ -31,7 +31,7 @@ This is possible because the NN has only one layer, therefore the output of the 
 
 $\textbf{y} = [y_0, y_1, ..., y_9]$
 $y_i = f_i(W\textbf{x}+b ); \forall{i} \in \{0,...,9\}$
-being $$ f_i(\textbf{x}) = max(0,x_i) $$
+being $f_i(\textbf{x}) = max(0,x_i)$
 
 From here I tried to evade minimizing $y_2$ by noticing that any component of vector function $\textbf{f}$ is monotonic:
 
