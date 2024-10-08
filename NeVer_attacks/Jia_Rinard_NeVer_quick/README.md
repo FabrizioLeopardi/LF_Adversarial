@@ -33,7 +33,7 @@ $$
 \textbf{y} = [y_0, y_1, ..., y_9]^T 
 $$
 $$
-y_i = f_i(W \textbf{x} +b );\ \forall i \in \lbrace 0,...,9 \rbrace
+y_i = \sigma_i(W \textbf{x} +b );\ \forall i \in \lbrace 0,...,9 \rbrace
 $$
 being 
 $$ 
