@@ -21,7 +21,7 @@ It will delete the already generated output files
 2. (Optional) `python3 numerical_attack.py` it will find a proper value to adjust the brightness. (This value was already hardcoded inside x0_generator.py)
 3. `python3 x0_generator.py`  It will create the x_0.ppm and data/x_0_data.txt files.
 4. `python3 integer_linear_programming.py` It will create x_adv.ppm file
-5.  (Optional check) `python3 epsilon_check.py` It will check the property $^{adv}\textbf{x} \in Adv_\epsilon(^0\textbf{x})$
+5.  (Optional check) `python3 epsilon_check.py` It will check the property $\textbf{x}^{adv} \in Adv_\epsilon(\textbf{x}^0)$
 
 
 ## Integer linear programming problem solution
@@ -29,9 +29,9 @@ It will delete the already generated output files
 In order to find `x_adv` i solved a very easy integer linear programming problem.
 This is possible because the NN has only one layer, therefore the output of the network $\textbf{y}$ can be written as a function of the input  $\textbf{x}$ as:
 
-$$ \textbf{y} = [y_0, y_1, ..., y_9] $$
+$\textbf{y} = [y_0, y_1, ..., y_9]$
 $$ y_i = f_i(W\textbf{x}+b ); \forall{i} \in \{0,...,9\}  $$
-being$$ f_i(\textbf{x}) = max(0,x_i) $$
+being $$ f_i(\textbf{x}) = max(0,x_i) $$
 
 From here I tried to evade minimizing $y_2$ by noticing that any component of vector function $\textbf{f}$ is monotonic:
 
