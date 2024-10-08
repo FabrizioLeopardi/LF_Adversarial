@@ -19,7 +19,7 @@ Recently the SearchVerification class was introduced: this allows to follow any 
 (Optional) `./start_directory`
 It will delete the already generated output files
 2. (Optional) `python3 numerical_attack.py` it will find a proper value to adjust the brightness. (This value was already hardcoded inside x0_generator.py)
-3. `python3 x0_generator.py`  It will create the x_0.ppm and data/x_0_data.txt files.
+3. `python3 x0_generator.py`  It will create the `x_0.ppm` and `data/x_0_data.txt` files.
 4. `python3 integer_linear_programming.py` It will create x_adv.ppm file
 5.  (Optional check) `python3 epsilon_check.py` It will check the property $\textbf{x}^{adv} \in Adv_\epsilon(\textbf{x}^0)$
 
