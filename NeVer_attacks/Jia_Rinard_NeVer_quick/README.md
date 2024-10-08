@@ -43,7 +43,7 @@ subject to
 $$l_i \le x_i \le u_i$$
 
 
-being $^2\textbf{e} = [0,0,1,0,0,0,0,0,0,0]$, $\textbf{w} = {\textbf{e}^2}^T W$ and $\braket{.,.}$
+being $\textbf{e}^2 = [0,0,1,0,0,0,0,0,0,0]^T$, $\textbf{w} = \({\textbf{e}^2}\)^T W$ and $\braket{.,.}$
 is the scalar product.
 The solution of the problem can be found by letting $x_i=l_i$ whenever the coefficient $w_i$ that multiplies $x_i$ is greater than $0$ and $x_i = u_i$ otherwise.
 The property the verifier assumed not to be possibile in the neighborhood of $^0\textbf{x}$ (`x_0.ppm`) was 
