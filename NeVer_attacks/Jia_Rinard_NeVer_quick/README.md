@@ -33,7 +33,7 @@ $$
 \textbf{y} = [y_0, y_1, ..., y_9]^T 
 $$
 $$
-y_i = \sigma_i(W \textbf{x} +b );\ \forall i \in \lbrace 0,...,9 \rbrace
+y_i = \sigma_{i+1}(W \textbf{x} +b );\ \forall i \in \lbrace 0,...,9 \rbrace
 $$
 being 
 $$ 
@@ -42,9 +42,9 @@ $$
 
 From here I tried to evade minimizing $y_2$ by noticing that any component of vector function $\boldsymbol{\sigma}$ is monotonic:
 
-$$\textbf{x}^{adv} =  argmin_{\textbf{x} \in Adv_\epsilon(\textbf{x}^0)} \lbrace y_2 \rbrace = argmin\lbrace \sigma_2(W\textbf{x}+\textbf{b})\rbrace 
+$$\textbf{x}^{adv} =  argmin_{\textbf{x} \in Adv_\epsilon(\textbf{x}^0)} \lbrace y_2 \rbrace = argmin\lbrace \sigma_3(W\textbf{x}+\textbf{b})\rbrace 
 = argmin \lbrace  (W\textbf{x}+\textbf{b})^T  \textbf{e}^3 \rbrace 
-= argmin \lbrace \textbf{w} \textbf{x}+b_2\rbrace $$
+= argmin \lbrace \textbf{w} \textbf{x}+b_3\rbrace $$
 
 subject to 
 $$l_i \le x_i \le u_i$$
