@@ -38,7 +38,6 @@ def main():
     """
     1) Issue with the findpoly function: can't find a proper polynomial for which the number made up by the first 30 digits of pi is a 0 but does not return None
     2) Issue with the identify function: can't identify a number and gives absurd expression
-    3)
     Last) Issue woth Hurwitz zeta (definition at: (document page 248))
     """
     issue_1()
