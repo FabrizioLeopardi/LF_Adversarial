@@ -40,7 +40,7 @@ Finally from the binary representation the hexadecimal representation becomes: 0
 
 ![32 bits](img/single.png)
 
-The standard requires a double-precision floating point number to be represented with a sign bit (S), 8 bits for the exponent of the number in base 2 with a bias of 127 (E) and 23 bits for the fractional part of the number's mantissa in base 2 (F).
+The standard requires a single-precision floating point number to be represented with a sign bit (S), 8 bits for the exponent of the number in base 2 with a bias of 127 (E) and 23 bits for the fractional part of the number's mantissa in base 2 (F).
 
 Let's consider the same example: let's represent the number: 0.2 
 First of all let's compute the "exponent of the number in base 2":
