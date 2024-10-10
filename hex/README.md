@@ -1,5 +1,10 @@
 # Insights on the IEEE 754 standard
 
+## float_representation.py
+
+This scripts allows the user to retrieve the hexadecimal representation of a real number with different precision.
+The scripts exploits the `hex()`, `struct.unpack()` and `struct.pack()` functions.
+
 ## 64 bits: Double-Precision Floating Point
 
 ![64 bits](img/double.png)
