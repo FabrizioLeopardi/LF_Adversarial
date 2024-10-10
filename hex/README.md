@@ -21,6 +21,6 @@ Let's consider an example: let's represent the number: 0.2
 By following the examples discussed so far it is immediate to write:
 
 $$ \left \lfloor log_2(3) \right \rfloor \approx -2$$
-$$ \frac{1}{3} = \frac{1}{4} * \frac{4}{3} = 2^{-2}\sum_{i=0}^{\infty} \frac{1}{2^{2i}}$$
+$$ \frac{1}{3} = \frac{1}{4} * \frac{4}{3} = 2^{-2}\displaystyle \sum_{i=0}^{\infty}\  \frac{1}{2^{2i}}$$
 
 And get the hexadecimal representation as discussed in the thesis
