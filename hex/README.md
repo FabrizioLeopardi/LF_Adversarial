@@ -28,8 +28,7 @@ $$\tiny{ 0 | 01111111100 | 1001100110011001100110011001100110011001100110011010}
 
 Where the different fields of the number were separated by the symbol $|$ 
 Finally from the binary representation the hexadecimal representation becomes: 
-0x3fc999999999999a
-$$\text{\fontfamily{pcr}\selectfont0x3fc999999999999a}$$
+$\text{\fontfamily{pcr}\selectfont0x3fc999999999999a}$
 
 ## 32 bits: Single-Precision Floating Point
 
