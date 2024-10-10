@@ -6,4 +6,4 @@
 
 ## 32 bits: Single-Precision Floating Point
 
-![32 bits](img/single.png = 250x250)
+<img src="https://github.com/FabrizioLeopardi/LF_Adversarial/blob/main/hex/img/single.png"  heigth="48">
