@@ -24,7 +24,7 @@ And hence the binary representation of $2^m$ with 52 bits is: $10011001100110011
 Notice that the last bits do not follow the pattern because rounding was performed.
 By noticing that the sign is positive the final binary representation is:
 
-$$\tiny{ 0 | 01111111100 | 1001100110011001100110011001100110011001100110011010}$$  
+$$\small{ 0 | 01111111100 | 1001100110011001100110011001100110011001100110011010}$$  
 
 Where the different fields of the number were separated by the symbol $|$ 
 Finally from the binary representation the hexadecimal representation becomes: 0x3fc999999999999a
