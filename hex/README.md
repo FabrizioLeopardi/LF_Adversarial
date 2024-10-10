@@ -2,6 +2,6 @@
 
 ## 64 bits: Double-Precision Floating Point
 
-
+![64 bits](img/double.png)
 
 ## 32 bits: Single-Precision Floating Point
