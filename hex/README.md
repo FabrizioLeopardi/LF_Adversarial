@@ -6,4 +6,4 @@
 
 ## 32 bits: Single-Precision Floating Point
 
-![32 bits](img/single.png)
+![32 bits](img/single.png = 250x250)
