@@ -11,7 +11,8 @@ First of all let's compute the "exponent of the number in base 2":
 
 $$  \left \lfloor log_2(0.2) \right \rfloor  =\left \lfloor log_2(\frac{1}{5}) \right \rfloor =  \left \lfloor -2.3219... \right \rfloor = -3 = 1020-1023 $$
 
-The binary representation of number 1020 with 11 bits is:  $01111111100\\ $
+The binary representation of number 1020 with 11 bits is:  $01111111100$
+
 Now for the fractional part of the mantissa in base 2 first write:
 
 $$ \frac{1}{5} = 2^{log_2(\frac{1}{5})} = 2^{\left \lfloor log_2(\frac{1}{5}) \right \rfloor+m} =  2^{-3} * \frac{8}{5} $$
@@ -40,7 +41,8 @@ First of all let's compute the "exponent of the number in base 2":
 
 $$  \left \lfloor log_2(0.2) \right \rfloor  =\left \lfloor log_2(\frac{1}{5}) \right \rfloor =  \left \lfloor -2.3219... \right \rfloor = -3 = 124-127 $$
 
-The binary representation of number 124 with 8 bits is:  $01111100\\ $
+The binary representation of number 124 with 8 bits is:  $01111100$
+
 Now for the fractional part of the mantissa in base 2 first write:
 
 $$ \frac{1}{5} = 2^{log_2(\frac{1}{5})} = 2^{\left \lfloor log_2(\frac{1}{5}) \right \rfloor+m} =  2^{-3} * \frac{8}{5} $$
