@@ -5,3 +5,5 @@
 ![64 bits](img/double.png)
 
 ## 32 bits: Single-Precision Floating Point
+
+![32 bits](img/single.png)
