@@ -6,4 +6,4 @@
 
 ## 32 bits: Single-Precision Floating Point
 
-<img src="https://github.com/FabrizioLeopardi/LF_Adversarial/blob/main/hex/img/single.png"  heigth="48">
+<img src="https://github.com/FabrizioLeopardi/LF_Adversarial/blob/main/hex/img/single.png"  heigth="24">
