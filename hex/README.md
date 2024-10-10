@@ -10,7 +10,7 @@ The standard requires a double-precision floating point number to be represented
 
 ## 32 bits: Single-Precision Floating Point
 
-![64 bits](img/single.png)
+![32 bits](img/single.png)
 
 The standard requires a double-precision floating point number to be represented with a sign bit (S), 8 bits for the exponent of the number in base 2 with a bias of 127 (E) and 23 bits for the fractional part of the number's mantissa in base 2 (F).
 
