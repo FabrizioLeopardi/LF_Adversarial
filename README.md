@@ -26,6 +26,10 @@ This folder contains an analysis of the strengths and strengths and weaknesses o
 
 This folder contains the code to train and test 784-10 feed-forward fully connected  neural networks with ReLU activation. Only the coarsest neural network found (in terms of accuracy) was used in the experiments.
 
+###  &#9658; hex
+
+This folder contains a script to retrieve the 64-bit and 32-bit hexadecimal representations of a real number following the IEEE754 standard
+
 ###  &#9658; my_best_NN_analysis
 
 This folder contains the code to test the best 784-10 feed-forward fully connected  neural networks with ReLU activation. This neural network was found via the code developed in the folder `colab_notebooks`
