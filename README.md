@@ -12,6 +12,9 @@ This folder contains the attacks against the Marabou verifier.
 The theoretical discussion of the attacks can be found at [[2](https://openreview.net/pdf?id=4IwieFS44l)] and [[3](https://arxiv.org/pdf/2003.03021)]
 All the attacks were tested against the package version `maraboupy==1.0.0`.
 
+### &#9658; Master_thesis
+This folder contains the $\textcolor{red}{\text{FINAL VERSION}}$ of the master thesis (delivered on the 11th-12th October 2024), the presentation and the manim code for the animations inside the presentation.
+
 ###  &#9658; NeVer_attacks
 This folder contains the attacks against the NeVer verifier.
 The theoretical discussion of the attacks can be found at [[2](https://openreview.net/pdf?id=4IwieFS44l)] and [[3](https://arxiv.org/pdf/2003.03021)]
