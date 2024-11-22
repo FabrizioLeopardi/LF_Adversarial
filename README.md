@@ -13,7 +13,7 @@ The theoretical discussion of the attacks can be found at [[2](https://openrevie
 All the attacks were tested against the package version `maraboupy==1.0.0`.
 
 ### &#9658; Master_thesis
-This folder contains the $\textcolor{red}{\text{FINAL VERSION}}$ of the master thesis (delivered on the 11th-12th October 2024) and the manim code for the animations inside the presentation.
+This folder contains the $\textcolor{red}{\text{FINAL VERSION}}$ of the master thesis (delivered on the 11th-12th October 2024).
 
 ###  &#9658; NeVer_attacks
 This folder contains the attacks against the NeVer verifier.
